@@ -125,3 +125,221 @@ footer {
     margin-top: 30px;
     font-size: 16px;
 }
+
+/* Login Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form label {
+  font-weight: bold;
+  align-self: flex-start;
+  margin-left: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+form input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  background-color: #fff;
+}
+
+form button {
+  background: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+form button:hover {
+  background: #357ab8;
+}
+
+/* --- Speech Exercises Page Styling --- */
+
+section h2 {
+    color: #1e3a5f;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Styled links (call-to-action buttons) */
+section a {
+    display: inline-block;
+    background: #4a90e2;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+section a:hover {
+    background: #357ab8;
+    transform: translateY(-2px);
+}
+
+
+/* --- Community Forum Page Styling --- */
+
+section h2 {
+    color: #1e3a5f;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Forum buttons */
+section button {
+    background: #4a90e2;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+section button:hover {
+    background: #357ab8;
+    transform: translateY(-2px);
+}
+
+/* Forum textareas */
+section textarea {
+    width: 100%;
+    max-width: 600px;
+    height: 120px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    resize: vertical;
+    transition: border-color 0.3s;
+}
+
+section textarea:focus {
+    border-color: #4a90e2;
+    outline: none;
+    background-color: #fff;
+}
+
+/* Forum link (if needed) */
+section a {
+    display: inline-block;
+    background: #4a90e2;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 10px;
+}
+
+section a:hover {
+    background: #357ab8;
+    transform: translateY(-2px);
+}
+
+
+/* --- Performance Tracking Section Styling --- */
+
+section h2 {
+    color: #1e3a5f;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Performance tracking form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* File input styling */
+form input[type="file"] {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+form input[type="file"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+/* Submit button */
+form input[type="submit"] {
+    background: #4a90e2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+form input[type="submit"]:hover {
+    background: #357ab8;
+    transform: translateY(-2px);
+}
+
+/* Label for file upload */
+form label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
